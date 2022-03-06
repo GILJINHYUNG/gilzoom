@@ -1,0 +1,22 @@
+1. package.json
+
+{
+  "scripts": {
+    "dev": "nodemon"
+  }
+}
+
+2. nodemon.json
+
+{
+  "ignore": ["src/public", "review/*"],
+  "exec": "babel-node src/server.js"
+}
+
+3.babel.config.json
+{
+  "presets": ["@babel/preset-env"]
+}
+
+
+
